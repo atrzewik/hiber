@@ -10,6 +10,6 @@
 Checkout documentation:
 
 * Hibernate user guide:
-https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections
+link:https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#collections[docs.jboss/user.guide]
 * Hibernate javadocs:
-https://docs.jboss.org/hibernate/orm/5.4/javadocs/
+link:https://docs.jboss.org/hibernate/orm/5.4/javadocs/[docs.jboss/javadocs]
