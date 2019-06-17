@@ -1,4 +1,4 @@
-package ja.workshops.hibernate.parts.model;
+package ja.workshops.hibernate.parts.date_time_mapping.model;
 
 import javax.persistence.*;
 import java.util.List;
@@ -12,7 +12,7 @@ public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
-    private long id;
+    private Long id;
 
     @Column(name = "name", nullable = false)
     private String name;
@@ -22,6 +22,13 @@ public class Author {
 
     @ManyToMany(mappedBy = "authors")
     private List<Book> books;
+
+
+    //TODO: Implement date of birth:
+
+
+    //TODO: Implement date of addition:
+
 
     public Author() {
 
